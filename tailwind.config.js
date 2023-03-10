@@ -7,6 +7,7 @@ module.exports = {
         primary: {
           orange: "hsl(26, 100%, 55%)",
           "pale-orange": "hsl(25, 100%, 94%)",
+          "hover-orange": "#ffac6a",
         },
         secondary: {
           "dark-blue": "hsl(220, 13%, 13%)",
