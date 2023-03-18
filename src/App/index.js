@@ -5,6 +5,7 @@ import ProductQuantitySelector from "../component/ProductQuantitySelector";
 import ProductPrice from "../component/ProductPrice";
 import ProductDiscountPercentage from "../component/ProductDiscountPercentage";
 import ProductPriceBeforeDiscount from "../component/ProductPriceBeforeDiscount";
+import ProductDescription from "../component/ProductDescription";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <ProductPrice />
       <ProductDiscountPercentage />
       <ProductPriceBeforeDiscount />
+      <ProductDescription />
     </>
   );
 };
