@@ -6,6 +6,7 @@ import ProductPrice from "../component/ProductPrice";
 import ProductDiscountPercentage from "../component/ProductDiscountPercentage";
 import ProductPriceBeforeDiscount from "../component/ProductPriceBeforeDiscount";
 import ProductDescription from "../component/ProductDescription";
+import ProductName from "../component/ProductName";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <ProductDiscountPercentage />
       <ProductPriceBeforeDiscount />
       <ProductDescription />
+      <ProductName />
     </>
   );
 };
