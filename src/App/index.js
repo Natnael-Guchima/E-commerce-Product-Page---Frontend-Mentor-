@@ -7,6 +7,7 @@ import ProductDiscountPercentage from "../component/ProductDiscountPercentage";
 import ProductPriceBeforeDiscount from "../component/ProductPriceBeforeDiscount";
 import ProductDescription from "../component/ProductDescription";
 import ProductName from "../component/ProductName";
+import CompanyName from "../component/CompanyName";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <ProductPriceBeforeDiscount />
       <ProductDescription />
       <ProductName />
+      <CompanyName />
     </>
   );
 };
