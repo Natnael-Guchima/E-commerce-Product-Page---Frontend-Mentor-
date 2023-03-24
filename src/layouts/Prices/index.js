@@ -5,7 +5,7 @@ import ProductPriceBeforeDiscount from "../../component/ProductPriceBeforeDiscou
 
 const Prices = ({ prices }) => {
   return (
-    <div className="flex justify-between items-center md:flex-col md:items-start">
+    <div className="flex justify-between items-center md:flex-col md:items-start mb-5">
       <div className="flex gap-x-5">
         <ProductPrice />
         <ProductDiscountPercentage />
