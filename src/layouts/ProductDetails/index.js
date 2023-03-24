@@ -1,16 +1,15 @@
 import React from "react";
-import AddToCartButton from "../../component/AddToCartButton";
+
 import CompanyName from "../../component/CompanyName";
 import ProductDescription from "../../component/ProductDescription";
 import ProductName from "../../component/ProductName";
-import ProductQuantitySelector from "../../component/ProductQuantitySelector";
 import Prices from "../Prices";
+import AddToCartWithQuantity from "../AddToCartWithQuantity";
 
 const ProductDetails = ({ productDetails }) => {
   return (
     <div className="flex flex-col-reverse">
-      <AddToCartButton />
-      <ProductQuantitySelector />
+      <AddToCartWithQuantity />
       <Prices />
       <ProductDescription />
       <ProductName />

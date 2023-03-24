@@ -5,7 +5,7 @@ import MinusIcon from "../../assets/icon-minus.svg";
 
 const ProductQuantitySelector = ({ quantity }) => {
   return (
-    <div className="flex items-center justify-between p-5 bg-primary-pale-orange rounded-xl">
+    <div className="flex flex-row-reverse items-center justify-between p-5 bg-primary-pale-orange rounded-xl md:basis-1/3">
       <button>
         <img
           className="w-3 h-3 hover:opacity-50"
