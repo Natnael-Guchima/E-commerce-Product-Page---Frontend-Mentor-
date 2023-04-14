@@ -8,7 +8,7 @@ import AddToCartWithQuantity from "../AddToCartWithQuantity";
 
 const ProductDetails = ({ productDetails }) => {
   return (
-    <div className="flex flex-col-reverse max-w-md p-4 md:px-0">
+    <div className="flex flex-col-reverse max-w-md p-4 md:px-0 ">
       <AddToCartWithQuantity />
       <Prices />
       <ProductDescription />
