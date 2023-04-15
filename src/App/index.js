@@ -5,7 +5,7 @@ import ProductDetails from "../layouts/ProductDetails";
 
 const App = () => {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col">
       <ProductCarousal />
       <ProductDetails />
     </div>
